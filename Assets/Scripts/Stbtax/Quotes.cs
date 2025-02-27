@@ -1,22 +1,18 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+//Quotes(µû¿ÈÇ¥): " ", ' '
+public class Quotes : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello Unity!!!");
-        Debug.Log("123456789");
+        Debug.Log("[1]  \" Å« µû¿ÈÇ¥ Ãâ·Â\"  " );
+        Debug.Log("[2]  \' Å« µû¿ÈÇ¥ Ãâ·Â  ");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Let's Move!!");
+        
     }
 }
-/*
-[output] 
- Hello Unity!!!
-123456789
-*/

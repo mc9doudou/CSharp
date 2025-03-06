@@ -5,7 +5,7 @@ public class IfElsePractice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int score = 85;
+        int score = 45;
         string i = "을 수상하셨습니다.";
         if (score >= 90)
         {
@@ -25,6 +25,26 @@ public class IfElsePractice : MonoBehaviour
         {
             Debug.Log("노매달");
         }
+
+        string medal = "";
+
+        if (score >= 90)
+        {
+            medal = "금매달";
+        }
+        else if (score >=80)
+        {
+            medal = "은매달";
+        }
+        else if (score >= 70)
+        {
+            medal = "동매달";
+        }
+        else
+        {
+            medal = "노매달";
+        }
+        Debug.Log($"{medal}를 수상하였습니다.");
 
     }
 }

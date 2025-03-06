@@ -27,8 +27,8 @@ public class SequenceDemo : MonoBehaviour
 /*
  * = 제어문 : 프로그램의 흐름(순서)를 정하는 구문 
  *  순차문 : 위에서 아래로 순서대로 명령문을 실행
- *  조건문 (if - else, switch) : 조건에 따라 서로 다른 명령문을 실행합니다 
- *  반복문 :
+ *  조건문 (if, if - else, switch) : 조건에 따라 서로 다른 명령문을 실행합니다 
+ *  반복문 (for, while): 코드를 여러 번 실행할 때 사용
  *  기타 
  * 
  * 

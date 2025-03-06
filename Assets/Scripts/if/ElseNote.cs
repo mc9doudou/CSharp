@@ -8,7 +8,7 @@ public class ElseNote : MonoBehaviour
     {
         if (1 != 1)
         {
-            Debug.Log("조건식이 참이면 실행문1을 실행합니다.");
+           
         }
         else
         {

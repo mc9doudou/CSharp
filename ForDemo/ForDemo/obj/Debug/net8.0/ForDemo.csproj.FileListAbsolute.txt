@@ -1,0 +1,15 @@
+D:\Project\CSharp\ForDemo\ForDemo\bin\Debug\net8.0\ForDemo.exe
+D:\Project\CSharp\ForDemo\ForDemo\bin\Debug\net8.0\ForDemo.deps.json
+D:\Project\CSharp\ForDemo\ForDemo\bin\Debug\net8.0\ForDemo.runtimeconfig.json
+D:\Project\CSharp\ForDemo\ForDemo\bin\Debug\net8.0\ForDemo.dll
+D:\Project\CSharp\ForDemo\ForDemo\bin\Debug\net8.0\ForDemo.pdb
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.AssemblyInfoInputs.cache
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.AssemblyInfo.cs
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.csproj.CoreCompileInputs.cache
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.sourcelink.json
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.dll
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\refint\ForDemo.dll
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.pdb
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ForDemo.genruntimeconfig.cache
+D:\Project\CSharp\ForDemo\ForDemo\obj\Debug\net8.0\ref\ForDemo.dll

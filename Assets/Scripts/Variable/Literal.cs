@@ -102,6 +102,25 @@ public class Literal : MonoBehaviour
 
         Debug.Log($"합은 {sum} 입니다");
 
+        
+        int number2 = 28;
+
+        if (number2 % 3 == 0)
+        {
+            Debug.Log($"{number2}는 3의 배수");
+        }
+        else if (number2 % 5 ==0)
+        {
+            Debug.Log($"{number2}는 5의 배수");
+        }
+        else if (number2 % 7 == 0)
+        {
+            Debug.Log($"{number2}는 7의 배수");
+        }
+        else 
+        {
+            Debug.Log($"{number2}는 3,5,7의 배수가 아닌 수");
+        }
 
 
 

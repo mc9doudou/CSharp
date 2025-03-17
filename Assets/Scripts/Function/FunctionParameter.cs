@@ -1,10 +1,10 @@
 using UnityEngine;
 
 //Parameter(매개변수)
-public class FunctionOarameter : MonoBehaviour
+public class FunctionParameter : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    /*void Start()
     {
         //[2] 매개 변수가 있는 함수 호출(사용)하기
         ShowMessage("안녕하세요");
@@ -16,7 +16,19 @@ public class FunctionOarameter : MonoBehaviour
     void ShowMessage(string message) 
     {
         Debug.Log(message);
-    }
+    }*/
 
+    void ShowMessage(string message)
+    {
+        Debug.Log(message);
+    }
+     
+    void Start()
+    {
+        ShowMessage("매개변수");
+        ShowMessage("Parameter");
+        ShowMessage("Operation");
+     
+    }
 
 }

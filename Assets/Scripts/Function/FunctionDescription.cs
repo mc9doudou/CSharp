@@ -3,7 +3,7 @@ using UnityEngine;
 public class FunctionDescription : MonoBehaviour
 {
     //[1] show 메서드(함수) 선언, 정의 
-    void Show()
+    /*void Show()
     {
         Debug.Log("Hello World...");
     }
@@ -16,6 +16,16 @@ public class FunctionDescription : MonoBehaviour
         //[2] Show 함수 호출
         Show();
         
+    }*/
+
+    static void Show()
+    {
+        Debug.Log("Hello World!!!");
+    }
+
+    static void Main()
+    {
+        Show();
     }
 }
 /*

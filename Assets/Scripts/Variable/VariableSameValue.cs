@@ -14,7 +14,7 @@ public class VariableSameValue : MonoBehaviour
         */
         a = b = c = 10;
 
-        Debug.Log(a+","+b+","+c);
+        Debug.Log(string.Format("{0},{1},{2}", a , b , c));
 
     }
 }

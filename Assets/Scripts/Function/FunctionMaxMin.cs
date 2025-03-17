@@ -3,31 +3,28 @@ using UnityEngine;
 public class FunctionMaxMin : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    /*void Start()
     {
         int max = GetMax(3, 5);
         Debug.Log($"3과 5중 큰수는 {max}이다.");
     }
-
-
     int GetMax(int x,int y)
     {
-        /*
+        *//*
          * int maxValue;
         if (x > y)
         {
             maxValue = x;
-           
         }
         else
         {
             maxValue = y;
         }
-        return maxValue;*/
+        return maxValue;*//*
 
         //3항 연산자
-       /* int maxValue = (x > y) ? x : y;
-        Return maxValue;*/
+       *//* int maxValue = (x > y) ? x : y;
+        Return maxValue;*//*
 
         //return (x > y) ? x : y;
 
@@ -39,7 +36,46 @@ public class FunctionMaxMin : MonoBehaviour
         {
             return y;
         }
+    }*/
+    private void Start()
+    {
+        Debug.Log($"3과 5중 최대값은 {Max(3,5)}");
+        Debug.Log($"-3과 -5중 최소값은 {Min(-3, -5)}");
+
     }
+    int Max(int x,int y)
+    {
+       if (x > y)
+       {
+            return x;
+       }
+       else
+       {
+            return y;
+       }
+    }
+
+    int Min(int x, int y)
+    {
+        if (y > x)
+        {
+            return x;
+        }
+        else
+        {
+            return y;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }

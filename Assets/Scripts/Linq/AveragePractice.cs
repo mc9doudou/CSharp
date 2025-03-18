@@ -22,7 +22,7 @@ public class AveragePractice : MonoBehaviour
             }
 
         }
-        if (count > 0) ;
+        if (count > 0)
         {
             average = sum / (double)count;
         }
